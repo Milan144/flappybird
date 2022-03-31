@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
 }
-
 #game{
+    margin-top: 10px;
     width: 400px;
     height: 500px;
     border: 5px solid black;
