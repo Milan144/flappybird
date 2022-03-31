@@ -42,7 +42,13 @@
     top: -500px;
     animation: block 2s infinite linear;
 }
+<<<<<<< HEAD
 /*#character{
+=======
+
+    
+#character{
+>>>>>>> main
     width: 20px;
     height: 20px;
     background-color:red;
