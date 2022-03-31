@@ -9,6 +9,7 @@ hole.addEventListener('animationiteration', () => {
     var random = -((Math.random()*300)+150);
     hole.style.top = random + "px";
     counter++;
+    document.getElementById("score").innerHTML = counter;
 });
 
 //Définit l'interval dans lequel le personnage peut passer sans perdre 
