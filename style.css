@@ -3,6 +3,7 @@
     margin: 0;
 }
 #game{
+    
     width: 400px;
     height: 500px;
     border: 1px solid black;
@@ -29,4 +30,12 @@
     left: 400px;
     top: -500px;
     animation: block 2s infinite linear;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    position: absolute;
+    top: 100px;
+    border-radius:50%;
 }
