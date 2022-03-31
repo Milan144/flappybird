@@ -3,22 +3,31 @@
     margin: 0;
     
 }
+.title-game{
+    padding:50px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
 #game{
-    width: 400px;
+    width: 700px;
     height: 500px;
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
+    background-image: url("asset/image/fond.png");
+    background-position: center;
 }
 #block{
     width: 50px;
     height: 500px;
-    background-color: rgb(77, 181, 48);
     position: relative;
+    background-color: rgb(3, 191, 10);
     left: 400px;
-    animation: block 1s infinite linear;
+    animation: block 2s infinite linear;
     background-image: url("asset/image/feuillage.png");
     background-position: center;
+
 }
 @keyframes block {
     0%{left:400px;}
@@ -27,15 +36,15 @@
 #hole{
     width: 50px;
     height: 150px;
-    background-color: white;
+    background-color: none;
     position: relative;
     left: 400px;
     top: -500px;
-    animation: block 1s infinite linear;
+    animation: block 2s infinite linear;
 }
+/*#character{
     width: 20px;
     height: 20px;
-#character{
     background-color:red;
     position: absolute;
     top: 100px;
