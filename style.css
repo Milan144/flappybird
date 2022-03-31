@@ -33,9 +33,11 @@
     top: -500px;
     animation: block 1s infinite linear;
 }
+
+    
+#character{
     width: 20px;
     height: 20px;
-#character{
     background-color:red;
     position: absolute;
     top: 100px;
