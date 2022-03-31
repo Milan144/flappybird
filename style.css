@@ -8,11 +8,13 @@
     border: 5px solid black;
     margin: auto;
     overflow: hidden;
-    background-image: url("asset/image/fond.png");
+    background-image: url("asset/image/fond2.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .title-fb{
-    padding: 30px 0;
+    
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -27,7 +29,7 @@
     background-color: rgb(3, 191, 10);
     left: 400px;
     animation: block 2s infinite linear;
-    background-image: url("asset/image/feuillage.png");
+    background-image: url("asset/image/tronc.png");
     background-position: center;
 }
 @keyframes block{
@@ -37,19 +39,21 @@
 #hole{
     width: 50px;
     height: 150px;
-    background-color: white;
+    background-image: url("asset/image/eau.jpg");
     position: relative;
     left: 400px;
     top: -500px;
     animation: block 2s infinite linear;
 }
 #character{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 60px;
+    height: 60px;
+    background-image: url(./asset/image/test.gif);
+    background-position: center;
+    background-size: cover;
     position: absolute;
     top: 100px;
-    border-radius: 50%;
+    
 }
 
 #score{
@@ -57,4 +61,17 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+}
+
+#ns{
+    padding: 30px 0;
+    display: flex;
+    margin-left: 35%;
+    flex-direction: column;
+    align-items:center;
+    width: 30%;
+    height: 70px;
+    margin-top: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
 }
