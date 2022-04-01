@@ -31,7 +31,11 @@ setInterval(function(){
     }
 },10);
 
-
+document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        jump();
+    }
+}
 //Permet de sauter (fonction se déclenche au clic sur la page -> dans index html)
 function jump(){
     jumping = 1; //Déclare que le personnage est en train de sauter
