@@ -27,7 +27,7 @@ setInterval(function(){
     if((characterTop>480)||((blockLeft<20)&&(blockLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))){
         alert("Game over. Score: "+(counter-1)); //Affiche le message de fin et le score
         character.style.top = 100 + "px"; //Reset la position du personnage
-        counter=0; //Reset le score
+        counter=-1; //Reset le score
     }
 },10);
 
